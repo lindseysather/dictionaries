@@ -10,12 +10,11 @@ def main():
     time = {'CS101':'8:00 a.m.', 'CS102':'9:00 a.m.', 
     'CS103':'10:00 a.m.', 'NT110':'11:00 a.m.', 'CM241':'1:00 p.m.'}
 
+
     num = input('Enter Course Number: ')
 
-    print(num, 'Room Number:', room[num])
-    print(num, 'Instructor:', instructor[num])
-    print(num, 'Meeting Time:', time[num])
+    print('Room Number:', room[num])
+    print('Instructor:', instructor[num])
+    print('Meeting Time:', time[num])
 
 main()
-
-
